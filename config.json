@@ -1,0 +1,12 @@
+{
+  "server": {
+    "http_port": ":9083"
+  },
+  "streams": {
+      "Kasir": {
+      "on_demand": false,
+      "disable_audio": true,
+      "url": "rtsp://admin:User12345@10.140.33.18:554/H.264"
+    }
+  }
+}
